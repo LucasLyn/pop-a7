@@ -1,7 +1,7 @@
 # PoP - Assignment 7
 PoP - 7g
 
-Don't be stupid...
+This assignment was about a rotation based puzzle game. We were tasked with creating the game from the ground up.
 
 # PoP - 7g
 
@@ -9,12 +9,12 @@ Don't be stupid...
 ## Kode
 
 
-Biblioteket compiles med fsharpc;
+The library is compiled with fsharpc;
 
 	$ fsharpc -a rotate.fsi rotate.fs
 
 
-Nu compiles testsne og "game" med fsharpc og køres med mono;
+The code is compiled with the library with fsharpc and run with mono;
 
 	$ fsharpc -r rotate.dll blackboxtest.fsx
 	$ fsharpc -r rotate.dll whiteboxtest.fsx
@@ -24,6 +24,6 @@ Nu compiles testsne og "game" med fsharpc og køres med mono;
 	$ mono game.exe
 
 
-rotate.fsi compiles til XML med fsharpc;
+The library is compiled to XML with fsharpc;
 
 	$ fsharpc --doc:rotate.xml -a rotate.fsi rotate.fs
